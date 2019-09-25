@@ -1,0 +1,13 @@
+{
+  "name": "4n70w4/base-client",
+  "description": "Base client",
+  "autoload": {
+    "psr-4": {
+      "BaseClient\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.1.0",
+    "guzzlehttp/guzzle": "^6.3"
+  }
+}
