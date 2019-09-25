@@ -66,7 +66,7 @@ abstract class BaseClient {
      * @param ResponseInterface $response
      * @param string|null $content
      */
-    abstract function exceptions(ResponseInterface $response, string $content = null) : void;
+    abstract protected function exceptions(ResponseInterface $response, string $content = null) : void;
 
 
 
